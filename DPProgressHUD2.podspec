@@ -24,7 +24,12 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "App payment only supports WeChat payment and alipay payment, supports platform configuration, and does not support automatic modification of payment interface."
+s.description  = <<-DESC
+                 "App payment only supports WeChat payment and alipay payment, supports platform configuration, and does not support automatic modification of payment interface."
+                 "fix a bug"
+
+                 DESC
+
   s.homepage     = "https://github.com/penghongmao/DPProgressHUD"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
